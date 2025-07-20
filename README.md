@@ -23,15 +23,24 @@ A smart and interactive web app built with **Streamlit** that uses **machine lea
 
 ---
 
-##Testing
+## 🧪 Testing
 
-Manual testing done with various job titles and edge cases
-Model performance validated using test split
-
+- ✅ Manual testing with various job titles and edge cases  
+- ✅ Model performance evaluated using:
+  - R² Score
+  - Mean Squared Error (MSE)
+- ✅ Test/Train split to validate model generalization
 ---
 
-##🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+## 🤝 Contributing
+Pull requests are welcome!  
+For major changes, please open an issue first to discuss what you’d like to change.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -m 'Add your message'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Open a Pull Request
 
 ---
 

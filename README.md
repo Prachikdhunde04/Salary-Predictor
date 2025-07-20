@@ -11,6 +11,7 @@ A smart and interactive web app built with **Streamlit** that uses **machine lea
 - Dynamic visualizations and model evaluation reports
 - Exportable results and report generation
 - Feedback form integration
+- Visual performance evaluation (R², MSE)
 
 ---
 
@@ -22,4 +23,25 @@ A smart and interactive web app built with **Streamlit** that uses **machine lea
 
 ---
 
+##Testing
 
+Manual testing done with various job titles and edge cases
+Model performance validated using test split
+
+---
+
+##🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+
+---
+
+## 💬 Feedback
+📋 [Click here to submit your feedback](📋 [Submit Feedback](https://docs.google.com/forms/d/e/1FAIpQLSfztUsU-0QDf98F2rDjkK7mN7BbJYZpc-CNWvBwQrc94ziyNg/viewform?usp=header)
+)
+
+---
+
+## 👩‍💻 Contact Me
+
+📧 Email: [prachidhunde@gmail.com](mailto:prachidhunde@gmail.com)  
+💼 LinkedIn: [Prachi Dhunde](https://www.linkedin.com/in/prachi-dhunde-408b2825a/)

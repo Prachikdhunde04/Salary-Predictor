@@ -23,6 +23,14 @@ A smart and interactive web app built with **Streamlit** that uses **machine lea
 
 ---
 
+## 🚀 Live App
+
+🔗 [Click here to try the Smart Salary Predictor](https://salary-predictor-byk9rkmnqcar6jw8s3wacz.streamlit.app/)
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://salary-predictor-byk9rkmnqcar6jw8s3wacz.streamlit.app/)
+
+---
+
 ## 🧪 Testing
 
 - ✅ Manual testing with various job titles and edge cases  

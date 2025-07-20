@@ -231,7 +231,7 @@ if st.button("🔮 Predict Salary"):
             """
 
         user_details_table = f"""
-            👤 User Details:
+            👤 User Details
             +------------+----------------------+
             | Field      | Value                |
             +------------+----------------------+
@@ -244,7 +244,7 @@ if st.button("🔮 Predict Salary"):
         """
         currency_symbol = "₹" if currency_option == "INR (₹)" else "$"
         salary_prediction_table = f"""
-        💼 Salary Prediction:
+        💼 Salary Prediction
         +---------------------+-------------------+-------------------+
         | Estimated Salary    | Minimum Salary    | Maximum Salary    |
         +---------------------+-------------------+-------------------+
@@ -273,12 +273,8 @@ if st.button("🔮 Predict Salary"):
             center_text_block(footer)
         ])
        
-        with st.expander("📄 View Full Salary Report"):
-           st.code(full_report, language="text")
-
-        if st.button("💾 Save"):
-            with open("salary_report.txt", "w", encoding="utf-8") as file:
-                file.write(full_report)
+        with open("salary_report.txt", "w", encoding="utf-8") as file:
+           file.write(full_report)
 
         st.subheader("📄 Download Salary Report")
         if st.download_button(

@@ -273,8 +273,8 @@ if st.button("🔮 Predict Salary"):
             center_text_block(footer)
         ])
        
-       with st.expander("📄 View Full Salary Report"):
-          st.code(full_report, language="text")
+        with st.expander("📄 View Full Salary Report"):
+           st.code(full_report, language="text")
 
         if st.button("💾 Save"):
             with open("salary_report.txt", "w", encoding="utf-8") as file:

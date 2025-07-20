@@ -4,8 +4,6 @@ import numpy as np
 import joblib
 import matplotlib.pyplot as plt
 from datetime import datetime
-from streamlit_modal import Modal
-
 
 
 # Load model
@@ -274,6 +272,9 @@ if st.button("🔮 Predict Salary"):
             "-" * 100,
             center_text_block(footer)
         ])
+       
+       with st.expander("📄 View Full Salary Report"):
+          st.code(full_report, language="text")
 
         if st.button("💾 Save"):
             with open("salary_report.txt", "w", encoding="utf-8") as file:

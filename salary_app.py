@@ -278,7 +278,7 @@ if st.button("🔮 Predict Salary"):
 
         st.subheader("📄 Download Salary Report")
         if st.download_button(
-            label="📅 Download",
+            label="📥 Download",
             data=full_report,
             file_name="salary_report.txt",
             mime="text/plain"
